@@ -12,6 +12,9 @@ def read_file(FILE_PATH):
     else:
         send_error("file does not exist")
 
+def new_variable():
+    pass
+
 def main(FILE_PATH):
     file_info = read_file(FILE_PATH)
 
@@ -79,6 +82,14 @@ def main(FILE_PATH):
                     while(file_info[i] != " " and file_info[i] != "\n"): # buffer overflow
                         variable_name.append(file_info[i])
                         i += 1
+
+                    variable_type = "".join(variable_type)
+                    variable_name = "".join(variable_name)
+                    variable = "".join(variable)
+
+                    if variable_type == "int":
+                        with open("temp.py", "w") as file:
+                            file.write(variable_name + " = " + variable_type + "(" + variable + ")")
 
                 else:
                     send_error("invalid syntax line x character y 4")
