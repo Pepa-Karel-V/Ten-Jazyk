@@ -1,3 +1,9 @@
 ;sdfghjjksdfg;
 #let 503 (int) <- Pepa 
-;# "ahoj" (print)
+#let "bobek" (str) <- Bobr 
+#let "Kolik:" (input) <- Karel
+#run "Ahojky." (print)
+
+;if statementy
+Karel (int) <--> Pepa (if):
+"Ahoj!" (print) $;
