@@ -163,6 +163,30 @@ def main(FILE_PATH):
                         
                         if command == "print":
                             new_command("temp.py", variable, command)
+                            
+            #if statementy
+#            elif character == XXX:
+            	#neco, nevim jak
+            	
+            	#znaminka
+#            	znaminko = []
+#            	if file_info[i] == "<"and file_info[i+1] == "-" and file_info[i+2] == "-" and file_info[i+3] == ">":
+#            		znaminko.append("==")
+#            		
+#            	elif file_info[i] == "<"and file_info[i+1] == "<" and file_info[i+2] == "-" and file_info[i+3] == ">":
+#            		znaminko.append(">=")
+            		
+#            	elif file_info[i] == "<"and file_info[i+1] == "-" and file_info[i+2] == ">" and file_info[i+3] == ">":
+#            		znaminko.append("<=")
+#            		
+#            	elif file_info[i] == "!"and file_info[i+1] == "<" and file_info[i+2] == "-" and file_info[i+3] == ">":
+#            		znaminko.append("!=")
+            	
+#            	elif file_info[i] == "<"and file_info[i+1] == "<" and file_info[i+2] == "-" and file_info[i+3] == "-":
+#            		znaminko.append(">")
+            		
+#            	elif file_info[i] == "-"and file_info[i+1] == "-" and file_info[i+2] == ">" and file_info[i+3] == ">":
+#            		znaminko.append("<")
 
             #elif character == "":
             elif character == "#":

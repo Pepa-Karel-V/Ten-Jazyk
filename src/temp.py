@@ -1,0 +1,8 @@
+Pepa = int(503)
+Bobr = str("bobek")
+Karel = input("Kolik:")
+print("Ahojky.")
+Pepa = int(503)
+Bobr = str("bobek")
+Karel = input("Kolik:")
+print("Ahojky.")

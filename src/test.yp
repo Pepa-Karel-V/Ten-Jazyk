@@ -5,5 +5,5 @@
 #run "Ahojky." (print)
 
 ;if statementy
-Karel (int) <--> Pepa (if):
-"Ahoj!" (print) $;
+#Karel (int) <--> Pepa (if):
+#"Ahoj!" (print) $;
